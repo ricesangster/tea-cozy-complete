@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: seashell;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+nav li {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+.text-over {
+    width: 1200px;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    /*align-itmes is used in flex not content */
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*10436jo*_ga*OTE3ODUyNTA0NS4xNjY3NDgwNTc1*_ga_3LRZM6TM9L*MTY3MzY3Mzg5OS43OC4xLjE2NzM2NzM5MDMuNTYuMC4w");
+    height: 700px;
+    width: 1200px;
+}
+
+.banner {
+    display: flex;
+    /* justify-content got banner centered vertically and horizontally over image*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 1200px;
+}
+
+.banner h2 {
+    margin-top: 10px;
+}
+.banner h4 { 
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Featured Section */
+
+#featured-tea {
+    max-width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: column aligned the pictures in the center and kept them in same
+    structure while changing screen size */
+}
+
+.featured-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+span {
+    font-weight:600 ;
+}
+
+/* Locations */
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*zqhvz*_ga*OTE3ODUyNTA0NS4xNjY3NDgwNTc1*_ga_3LRZM6TM9L*MTY3MzY3Mzg5OS43OC4xLjE2NzM2NzM5MDMuNTYuMC4w");
+    max-width: 1200px;
+    height: 500px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    /* changed this from 1200px to 100% because parent container is 
+    already 1200px */
+    width: 100%;
+}
+.item-loc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+/* Changed width to 25% instead of using px it allows
+the boxes to shrink with the page instead of overflowing */
+    width: 25%;
+    height: 300px;
+    background-color: black;
+    margin: 2% 1%;
+}
+
+.item-loc h4 {
+    padding: 11px;
+}
+
+
+/* Contact */
+
+.item-con {
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+h5 {
+    margin-top: 30px;
+}
+
+
+/* Footer */
+
+.footer-container {
+}
+
+.item-foot {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
